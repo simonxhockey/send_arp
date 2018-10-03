@@ -16,7 +16,7 @@
 /* to get my MAC  and IP */
 struct ifreq ifr;
 u_int8_t myip[4] = {0,0,0,0};
-u_int8_t mymac[6] = {0,0,0,0};
+u_int8_t mymac[6] = {0,0,0,0,0,0};
 
 /* struct for arp packet */
 struct arphdrr {
